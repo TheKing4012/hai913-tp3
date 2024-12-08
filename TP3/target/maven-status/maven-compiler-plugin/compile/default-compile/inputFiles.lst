@@ -17,6 +17,7 @@
 /home/richard/Bureau/Cours/M1/S7/Architecture-Logicielle/RestApp/TP3/src/main/java/com/example/tp3/data/UserDData.java
 /home/richard/Bureau/Cours/M1/S7/Architecture-Logicielle/RestApp/TP3/src/main/java/com/example/tp3/models/UserD.java
 /home/richard/Bureau/Cours/M1/S7/Architecture-Logicielle/RestApp/TP3/src/main/java/com/example/tp3/controllers/UserDController.java
+/home/richard/Bureau/Cours/M1/S7/Architecture-Logicielle/RestApp/TP3/src/main/java/com/example/tp3/logger/LogParser.java
 /home/richard/Bureau/Cours/M1/S7/Architecture-Logicielle/RestApp/TP3/src/main/java/com/example/tp3/models/LoginRequest.java
 /home/richard/Bureau/Cours/M1/S7/Architecture-Logicielle/RestApp/TP3/src/main/java/com/example/tp3/utils/PasswordController.java
 /home/richard/Bureau/Cours/M1/S7/Architecture-Logicielle/RestApp/TP3/src/main/java/com/example/tp3/exceptions/UserNotFoundException.java
