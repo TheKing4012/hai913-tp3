@@ -1,0 +1,95 @@
+2024-12-08 07:50:41 [restartedMain] INFO  com.example.tp3.main.Tp3Application - Starting Tp3Application using Java 21.0.1 with PID 179695 (/home/richard/Bureau/Cours/M1/S7/Architecture-Logicielle/RestApp/TP3/target/classes started by richard in /home/richard/Bureau/Cours/M1/S7/Architecture-Logicielle/RestApp)
+2024-12-08 07:50:41 [restartedMain] INFO  com.example.tp3.main.Tp3Application - No active profile set, falling back to 1 default profile: "default"
+2024-12-08 07:50:41 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-08 07:50:41 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-08 07:50:42 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-08 07:50:42 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
+2024-12-08 07:50:43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 30007 (http)
+2024-12-08 07:50:44 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-30007"]
+2024-12-08 07:50:44 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-08 07:50:44 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-12-08 07:50:44 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-08 07:50:44 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2083 ms
+2024-12-08 07:50:44 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-08 07:50:44 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:hotels:ibis user=SA
+2024-12-08 07:50:44 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-08 07:50:44 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:hotels:ibis'
+2024-12-08 07:50:44 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-08 07:50:44 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-12-08 07:50:44 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-08 07:50:45 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-08 07:50:45 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-08 07:50:46 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-08 07:50:46 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08 07:50:46 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-08 07:50:47 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@384a593e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@404d42b4, org.springframework.security.web.context.SecurityContextHolderFilter@5f646d8d, org.springframework.security.web.header.HeaderWriterFilter@134276a6, org.springframework.web.filter.CorsFilter@74fc3598, org.springframework.security.web.authentication.logout.LogoutFilter@2ea6cfb8, com.example.tp3.configurations.JWTAuthenticationFilter@6cf48cdf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@153319b9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7b2f9746, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61dbbd6, org.springframework.security.web.session.SessionManagementFilter@79335b29, org.springframework.security.web.access.ExceptionTranslationFilter@752fa4ef, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4a401ecc]
+2024-12-08 07:50:47 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-08 07:50:47 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-30007"]
+2024-12-08 07:50:47 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 30007 (http) with context path ''
+2024-12-08 07:50:47 [restartedMain] INFO  com.example.tp3.main.Tp3Application - Started Tp3Application in 6.468 seconds (process running for 7.908)
+2024-12-08 07:50:49 [restartedMain] INFO  c.e.t.data.UserDData$$SpringCGLIB$$0 - Loading database with 
+UserD{id=1, nom='toto', email='toto@toto'}
+2024-12-08 07:50:49 [restartedMain] INFO  c.e.t.data.UserDData$$SpringCGLIB$$0 - Loading database with 
+UserD{id=2, nom='tata', email='tata@tata'}
+2024-12-08 07:50:49 [restartedMain] INFO  c.e.t.data.UserDData$$SpringCGLIB$$0 - Loading database with 
+UserD{id=3, nom='tutu', email='tutu@tutu'}
+2024-12-08 07:50:49 [restartedMain] INFO  c.e.t.data.UserDData$$SpringCGLIB$$0 - Loading database with 
+UserD{id=4, nom='test', email='test@test'}
+2024-12-08 07:50:49 [restartedMain] INFO  c.e.t.data.UserDData$$SpringCGLIB$$0 - Loading database with 
+UserD{id=5, nom='donald', email='donald@gmail.com'}
+2024-12-08 07:50:49 [restartedMain] INFO  c.e.t.data.UserDData$$SpringCGLIB$$0 - Loading database with 
+UserD{id=6, nom='romain', email='romain@gmail.com'}
+2024-12-08 07:50:49 [restartedMain] INFO  c.e.t.data.UserDData$$SpringCGLIB$$0 - Loading database with 
+UserD{id=7, nom='richard', email='richard.picole@rpodev.fr'}
+2024-12-08 07:50:49 [restartedMain] INFO  c.e.t.data.UserDData$$SpringCGLIB$$0 - Loading database with 
+UserD{id=8, nom='magali', email='magali@gmail.com'}
+2024-12-08 07:50:49 [restartedMain] INFO  c.e.t.data.UserDData$$SpringCGLIB$$0 - Loading database with 
+UserD{id=9, nom='sebastien', email='sebastien@gmail.com'}
+2024-12-08 07:50:49 [restartedMain] INFO  c.e.t.data.UserDData$$SpringCGLIB$$0 - Loading database with 
+UserD{id=10, nom='quentin', email='quentin@gmail.com'}
+2024-12-08 07:50:49 [restartedMain] INFO  c.e.t.data.UserDData$$SpringCGLIB$$0 - Loading database with 
+Product{id=1, nom='Gel', prix='10.0', dateExp='2024-01-01'}
+2024-12-08 07:50:49 [restartedMain] INFO  c.e.t.data.UserDData$$SpringCGLIB$$0 - Loading database with 
+Product{id=2, nom='PS5', prix='499.99', dateExp='2024-05-15'}
+2024-12-08 07:50:49 [restartedMain] INFO  c.e.t.data.UserDData$$SpringCGLIB$$0 - Loading database with 
+Product{id=3, nom='Energy Drink', prix='2.38', dateExp='2024-03-10'}
+2024-12-08 07:50:49 [restartedMain] INFO  c.e.t.data.UserDData$$SpringCGLIB$$0 - Loading database with 
+Product{id=4, nom='Shampoo', prix='5.99', dateExp='2024-04-20'}
+2024-12-08 07:50:49 [restartedMain] INFO  c.e.t.data.UserDData$$SpringCGLIB$$0 - Loading database with 
+Product{id=5, nom='Laptop', prix='899.49', dateExp='2024-06-30'}
+2024-12-08 07:50:49 [restartedMain] INFO  c.e.t.data.UserDData$$SpringCGLIB$$0 - Loading database with 
+Product{id=6, nom='Headphones', prix='75.0', dateExp='2024-07-25'}
+2024-12-08 07:50:49 [restartedMain] INFO  c.e.t.data.UserDData$$SpringCGLIB$$0 - Loading database with 
+Product{id=7, nom='Notebook', prix='2.5', dateExp='2025-01-01'}
+2024-12-08 07:50:49 [restartedMain] INFO  c.e.t.data.UserDData$$SpringCGLIB$$0 - Loading database with 
+Product{id=8, nom='Backpack', prix='30.0', dateExp='2024-12-31'}
+2024-12-08 07:50:49 [restartedMain] INFO  c.e.t.data.UserDData$$SpringCGLIB$$0 - Loading database with 
+Product{id=9, nom='Mouse', prix='15.0', dateExp='2024-02-14'}
+2024-12-08 07:50:49 [restartedMain] INFO  c.e.t.data.UserDData$$SpringCGLIB$$0 - Loading database with 
+Product{id=10, nom='Keyboard', prix='25.0', dateExp='2024-11-11'}
+2024-12-08 07:51:10 [http-nio-30007-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-08 07:51:10 [http-nio-30007-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-08 07:51:10 [http-nio-30007-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2024-12-08 07:51:10 [http-nio-30007-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/userservice/api/connect' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2024-12-08 07:51:10 [http-nio-30007-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/userservice/api/connect' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2024-12-08 07:51:12 [http-nio-30007-exec-1] INFO  c.e.t.controllers.ProductController - User: UserD{id=3, nom='tutu', email='tutu@tutu'} performed a READ operation on method: getAllProducts
+2024-12-08 07:51:12 [http-nio-30007-exec-2] INFO  c.e.t.controllers.ProductController - User: UserD{id=3, nom='tutu', email='tutu@tutu'} performed a WRITE operation on method: createProduct
+2024-12-08 07:51:13 [http-nio-30007-exec-3] INFO  c.e.t.controllers.ProductController - User: UserD{id=3, nom='tutu', email='tutu@tutu'} performed a SEARCH operation on method: findTop5ExpensiveProducts
+2024-12-08 07:51:13 [http-nio-30007-exec-4] INFO  c.e.t.controllers.ProductController - User: UserD{id=9, nom='sebastien', email='sebastien@gmail.com'} performed a READ operation on method: getAllProducts
+2024-12-08 07:51:13 [http-nio-30007-exec-5] INFO  c.e.t.controllers.ProductController - User: UserD{id=4, nom='test', email='test@test'} performed a READ operation on method: getAllProducts
+2024-12-08 07:51:13 [http-nio-30007-exec-6] INFO  c.e.t.controllers.ProductController - User: UserD{id=4, nom='test', email='test@test'} performed a WRITE operation on method: createProduct
+2024-12-08 07:51:13 [http-nio-30007-exec-7] INFO  c.e.t.controllers.ProductController - User: UserD{id=6, nom='romain', email='romain@gmail.com'} performed a READ operation on method: getAllProducts
+2024-12-08 07:51:13 [http-nio-30007-exec-8] INFO  c.e.t.controllers.ProductController - User: UserD{id=6, nom='romain', email='romain@gmail.com'} performed a SEARCH operation on method: findTop5ExpensiveProducts
+2024-12-08 07:51:13 [http-nio-30007-exec-9] INFO  c.e.t.controllers.ProductController - User: UserD{id=2, nom='tata', email='tata@tata'} performed a READ operation on method: getAllProducts
+2024-12-08 07:51:13 [http-nio-30007-exec-10] INFO  c.e.t.controllers.ProductController - User: UserD{id=2, nom='tata', email='tata@tata'} performed a WRITE operation on method: createProduct
+2024-12-08 07:51:13 [http-nio-30007-exec-1] INFO  c.e.t.controllers.ProductController - User: UserD{id=2, nom='tata', email='tata@tata'} performed a SEARCH operation on method: findTop5ExpensiveProducts
+2024-12-08 07:51:13 [http-nio-30007-exec-2] INFO  c.e.t.controllers.ProductController - User: UserD{id=5, nom='donald', email='donald@gmail.com'} performed a WRITE operation on method: createProduct
+2024-12-08 07:51:13 [http-nio-30007-exec-3] INFO  c.e.t.controllers.ProductController - User: UserD{id=5, nom='donald', email='donald@gmail.com'} performed a SEARCH operation on method: findTop5ExpensiveProducts
+2024-12-08 07:51:13 [http-nio-30007-exec-4] INFO  c.e.t.controllers.ProductController - User: UserD{id=8, nom='magali', email='magali@gmail.com'} performed a READ operation on method: getAllProducts
+2024-12-08 07:51:13 [http-nio-30007-exec-5] INFO  c.e.t.controllers.ProductController - User: UserD{id=7, nom='richard', email='richard.picole@rpodev.fr'} performed a WRITE operation on method: createProduct
+2024-12-08 07:51:13 [http-nio-30007-exec-6] INFO  c.e.t.controllers.ProductController - User: UserD{id=7, nom='richard', email='richard.picole@rpodev.fr'} performed a SEARCH operation on method: findTop5ExpensiveProducts
+2024-12-08 07:51:16 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08 07:51:16 [SpringApplicationShutdownHook] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-12-08 07:51:16 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-08 07:51:16 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

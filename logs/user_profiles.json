@@ -1,0 +1,153 @@
+[ {
+  "id" : 2,
+  "name" : "tata",
+  "email" : "tata@tata",
+  "eventCount" : {
+    "READ" : 1,
+    "SEARCH" : 1,
+    "WRITE" : 1
+  },
+  "methodUsageCount" : {
+    "getAllProducts" : {
+      "count" : 1,
+      "timestamps" : [ "2024-12-08 07:51:13" ]
+    },
+    "createProduct" : {
+      "count" : 1,
+      "timestamps" : [ "2024-12-08 07:51:13" ]
+    },
+    "findTop5ExpensiveProducts" : {
+      "count" : 1,
+      "timestamps" : [ "2024-12-08 07:51:13" ]
+    }
+  },
+  "lastActionTimestamp" : "2024-12-08 07:51:13"
+}, {
+  "id" : 3,
+  "name" : "tutu",
+  "email" : "tutu@tutu",
+  "eventCount" : {
+    "READ" : 1,
+    "SEARCH" : 1,
+    "WRITE" : 1
+  },
+  "methodUsageCount" : {
+    "getAllProducts" : {
+      "count" : 1,
+      "timestamps" : [ "2024-12-08 07:51:12" ]
+    },
+    "createProduct" : {
+      "count" : 1,
+      "timestamps" : [ "2024-12-08 07:51:12" ]
+    },
+    "findTop5ExpensiveProducts" : {
+      "count" : 1,
+      "timestamps" : [ "2024-12-08 07:51:13" ]
+    }
+  },
+  "lastActionTimestamp" : "2024-12-08 07:51:13"
+}, {
+  "id" : 4,
+  "name" : "test",
+  "email" : "test@test",
+  "eventCount" : {
+    "READ" : 1,
+    "WRITE" : 1
+  },
+  "methodUsageCount" : {
+    "getAllProducts" : {
+      "count" : 1,
+      "timestamps" : [ "2024-12-08 07:51:13" ]
+    },
+    "createProduct" : {
+      "count" : 1,
+      "timestamps" : [ "2024-12-08 07:51:13" ]
+    }
+  },
+  "lastActionTimestamp" : "2024-12-08 07:51:13"
+}, {
+  "id" : 5,
+  "name" : "donald",
+  "email" : "donald@gmail.com",
+  "eventCount" : {
+    "SEARCH" : 1,
+    "WRITE" : 1
+  },
+  "methodUsageCount" : {
+    "createProduct" : {
+      "count" : 1,
+      "timestamps" : [ "2024-12-08 07:51:13" ]
+    },
+    "findTop5ExpensiveProducts" : {
+      "count" : 1,
+      "timestamps" : [ "2024-12-08 07:51:13" ]
+    }
+  },
+  "lastActionTimestamp" : "2024-12-08 07:51:13"
+}, {
+  "id" : 6,
+  "name" : "romain",
+  "email" : "romain@gmail.com",
+  "eventCount" : {
+    "READ" : 1,
+    "SEARCH" : 1
+  },
+  "methodUsageCount" : {
+    "getAllProducts" : {
+      "count" : 1,
+      "timestamps" : [ "2024-12-08 07:51:13" ]
+    },
+    "findTop5ExpensiveProducts" : {
+      "count" : 1,
+      "timestamps" : [ "2024-12-08 07:51:13" ]
+    }
+  },
+  "lastActionTimestamp" : "2024-12-08 07:51:13"
+}, {
+  "id" : 7,
+  "name" : "richard",
+  "email" : "richard.picole@rpodev.fr",
+  "eventCount" : {
+    "SEARCH" : 1,
+    "WRITE" : 1
+  },
+  "methodUsageCount" : {
+    "createProduct" : {
+      "count" : 1,
+      "timestamps" : [ "2024-12-08 07:51:13" ]
+    },
+    "findTop5ExpensiveProducts" : {
+      "count" : 1,
+      "timestamps" : [ "2024-12-08 07:51:13" ]
+    }
+  },
+  "lastActionTimestamp" : "2024-12-08 07:51:13"
+}, {
+  "id" : 8,
+  "name" : "magali",
+  "email" : "magali@gmail.com",
+  "eventCount" : {
+    "READ" : 1
+  },
+  "methodUsageCount" : {
+    "getAllProducts" : {
+      "count" : 1,
+      "timestamps" : [ "2024-12-08 07:51:13" ]
+    }
+  },
+  "lastActionTimestamp" : "2024-12-08 07:51:13"
+}, {
+  "id" : 9,
+  "name" : "sebastien",
+  "email" : "sebastien@gmail.com",
+  "eventCount" : {
+    "READ" : 1
+  },
+  "methodUsageCount" : {
+    "getAllProducts" : {
+      "count" : 1,
+      "timestamps" : [ "2024-12-08 07:51:13" ]
+    }
+  },
+  "lastActionTimestamp" : "2024-12-08 07:51:13"
+} ]
